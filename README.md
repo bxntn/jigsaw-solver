@@ -30,7 +30,7 @@ with Respect to Color Image Segmentation :
 1. Changed the image's color space to HSV
 2. Computed histogram to determine dominant color
 3. After obtaining the mask, use median blur to reduce noise.
-4. Image subtraction using a mask 
+4. Image subtraction using a mask<br>
 ![download](https://github.com/bxntn/jigsaw-solver/assets/52697656/8c174678-9e32-4340-8c6a-5607ff7e08ae)
 ### Finding contour
 * Using findContours from opencv library<br>
@@ -69,7 +69,7 @@ Object that contained
 5. Calculate the score using black color and image size proportion<br> 
 ![download](https://github.com/bxntn/jigsaw-solver/assets/52697656/b05279e1-a679-4f97-932e-33ff3647ab0a)
 - with colour
-1. Get RGB value along the edge contour.
+1. Get RGB value along the edge contour.<br>
 ![download](https://github.com/bxntn/jigsaw-solver/assets/52697656/44cc8907-cceb-4004-a799-9a691b22b611)<br>
 ![download](https://github.com/bxntn/jigsaw-solver/assets/52697656/5aeee50f-220c-4fae-949f-16c84c72f976)<br>
 2. Compared its using DTW algorithm
